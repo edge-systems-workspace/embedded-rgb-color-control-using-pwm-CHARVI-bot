@@ -64,3 +64,24 @@ void loop(){
     digitalWrite(green, LOW);
     delay(1000);
 }
+//Red & Blue combination
+void loop(){
+    digitalWrite(red, HIGH);
+    digitalWrite(blue, HIGH);
+    digitalWrite(green, LOW);
+    delay(1000);
+}
+//Blue & Green combination
+void loop(){
+    digitalWrite(red, LOW);
+    digitalWrite(blue, HIGH);
+    digitalWrite(green, HIGH);
+    delay(1000);
+}
+//Red & Green combination
+void loop(){
+    digitalWrite(red, HIGH);
+    digitalWrite(blue, LOW);
+    digitalWrite(green, HIGH);
+    delay(1000);
+}
