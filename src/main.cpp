@@ -21,3 +21,18 @@ int blue=11;
  *
  * @return void
  */
+void setup(){
+    pinMode(red,OUTPUT);
+    pinMode(green,OUtPUT);
+    pinMode(blue,OUTPUT);
+}
+/**
+ * @brief Run the LED demo loop: digital blink and PWM color cycle.
+ *
+ * @details
+ * First toggles the red LED using digitalWrite with 1 second intervals.
+ * Then cycles full-brightness red, green, and blue using analogWrite (PWM),
+ * each shown for 1 second. A short pause separates cycles.
+ *
+ * @return void
+ */
