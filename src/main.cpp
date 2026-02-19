@@ -9,4 +9,15 @@
  * and analog PWM brightness control.
  */
 
-
+int red=9;
+int green=10;
+int blue=11;
+/**
+ * @brief Initialize serial communication and configure LED pins.
+ *
+ * @details
+ * Starts the hardware Serial at 9600 baud and sets the RGB pins as OUTPUT.
+ * Prints an initialization message to the serial console.
+ *
+ * @return void
+ */
