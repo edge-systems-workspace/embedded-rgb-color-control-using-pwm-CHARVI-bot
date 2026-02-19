@@ -36,3 +36,31 @@ void setup(){
  *
  * @return void
  */
+//White
+void loop(){
+    digitalWrite(red, HIGH);
+    digitalWrite(blue, HIGH);
+    digitalWrite(green, HIGH);
+    delay(1000);
+}
+//Red
+void loop(){
+    digitalWrite(red, HIGH);
+    digitalWrite(blue, LOW);
+    digitalWrite(green, LOW);
+    delay(1000);
+}
+//Blue
+void loop(){
+    digitalWrite(red, LOW);
+    digitalWrite(blue, HIGH);
+    digitalWrite(green, LOW);
+    delay(1000);
+}
+//Green
+void loop(){
+    digitalWrite(red, LOW);
+    digitalWrite(blue, HIGH);
+    digitalWrite(green, LOW);
+    delay(1000);
+}
